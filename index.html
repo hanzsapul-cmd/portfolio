@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hanz Aaron G. Sapul | Computer Engineering Portfolio</title>
+  <meta name="description" content="Portfolio of Hanz Aaron G. Sapul, Bachelor of Science in Computer Engineering student.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Floating 3D background shapes -->
+  <div class="bg-shapes" aria-hidden="true">
+    <span class="orb o1"></span>
+    <span class="orb o2"></span>
+    <span class="orb o3"></span>
+  </div>
+
+  <!-- NAVIGATION -->
+  <header class="nav">
+    <a href="#home" class="logo">HS<span>.</span></a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <p class="eyebrow">Hello, I'm</p>
+      <h1>Hanz Aaron <span class="grad">G. Sapul</span></h1>
+      <p class="role">Bachelor of Science in Computer Engineering</p>
+      <p class="lead">An observant and curious builder who learns by doing, from circuits and microcontrollers to hands-on prototypes.</p>
+      <div class="btns">
+        <a class="btn primary" href="#projects">View My Work</a>
+        <a class="btn ghost" href="#contact">Contact Me</a>
+      </div>
+    </div>
+
+    <!-- Rotating 3D cube (shows your projects) -->
+    <div class="scene">
+      <div class="cube">
+        <div class="face front"><img src="project1-lamp.jpg" alt="Popsicle stick lamp"></div>
+        <div class="face right"><img src="project2-joystick.jpg" alt="Arduino joystick servo control"></div>
+        <div class="face back"><img src="project3-amplifier.jpg" alt="Amplifier circuit board"></div>
+        <div class="face left"><img src="project4-robotic-arm.jpg" alt="Popsicle stick robotic arm"></div>
+        <div class="face top mono"><span>HS</span></div>
+        <div class="face bottom"><span>CpE</span></div>
+      </div>
+      <div class="shadow"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h2 class="title">About <span class="grad">Me</span></h2>
+    <div class="about-grid">
+      <div class="glass about-text">
+        <p>I am Hanz Aaron G. Sapul, an aspiring Computer Engineer currently pursuing a Bachelor of Science in Computer Engineering at Holy Cross of Davao College. I am a curious, observant, and hands-on individual with a strong interest in technology, innovation, and problem-solving.</p>
+        <p>My interests include embedded systems, programming, electronics, robotics, automation, and computer vision. Through academic projects and hands-on experimentation, I have gained experience exploring microcontrollers, sensors, circuit integration, robotic mechanisms, and hardware-software development.</p>
+        <p>I enjoy turning ideas into practical solutions, learning new technologies, and continuously improving my technical abilities. I believe that every project is an opportunity to develop new skills, overcome challenges, and create something meaningful.</p>
+        <p>My goal is to become a skilled and innovative engineer who uses technology to develop practical solutions and make a positive impact.</p>
+        <p class="quote">&ldquo;It's either you win or you learn, one step at a time.&rdquo;</p>
+      </div>
+      <div class="glass skills">
+        <h3>Interests &amp; Skills</h3>
+        <ul>
+          <li>Embedded Systems</li>
+          <li>Programming</li>
+          <li>Electronics</li>
+          <li>Robotics</li>
+          <li>Automation</li>
+          <li>Computer Vision</li>
+          <li>Microcontrollers</li>
+          <li>Circuit Integration</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h2 class="title">My <span class="grad">Projects</span></h2>
+    <div class="grid">
+
+      <article class="card3d">
+        <div class="card-inner">
+          <div class="thumb"><img src="project1-lamp.jpg" alt="Popsicle stick lamp" class="top"></div>
+          <span class="tag">Craft &amp; Design</span>
+          <h3>Popsicle Stick Lamp</h3>
+          <p>A handmade twisting lamp built from popsicle sticks, glowing warmly from the inside.</p>
+          <a href="#" class="link">View Project &rarr;</a>
+        </div>
+      </article>
+
+      <article class="card3d">
+        <div class="card-inner">
+          <div class="thumb"><img src="project2-joystick.jpg" alt="Arduino joystick servo control"></div>
+          <span class="tag">Arduino</span>
+          <h3>Joystick-Controlled Servos</h3>
+          <p>An Arduino Uno wired on a breadboard to read arcade joysticks and drive servo motors.</p>
+          <a href="#" class="link">View Project &rarr;</a>
+        </div>
+      </article>
+
+      <article class="card3d">
+        <div class="card-inner">
+          <div class="thumb duo">
+            <img src="project3-amplifier.jpg" alt="Amplifier circuit board">
+            <img src="project3-speakers-team.jpg" alt="Custom speaker boxes built with classmates">
+          </div>
+          <span class="tag">Electronics &amp; Team Build</span>
+          <h3>Audio Amplifier &amp; Custom Speaker Boxes</h3>
+          <p>A hand-assembled amplifier board paired with custom multi-driver speaker cabinets, built with my classmates and instructor.</p>
+          <a href="#" class="link">View Project &rarr;</a>
+        </div>
+      </article>
+
+      <article class="card3d">
+        <div class="card-inner">
+          <div class="thumb"><img src="project4-robotic-arm.jpg" alt="Popsicle stick robotic arm"></div>
+          <span class="tag">Robotics</span>
+          <h3>Popsicle Stick Robotic Arm</h3>
+          <p>A servo-driven robotic arm made from popsicle sticks and controlled with an Arduino.</p>
+          <a href="#" class="link">View Project &rarr;</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- CERTIFICATES (flip cards) -->
+  <section id="certificates" class="section">
+    <h2 class="title">My <span class="grad">Certificates</span></h2>
+    <div class="grid">
+
+      <div class="flip cert">
+        <div class="flip-inner">
+          <div class="flip-front"><img src="certificate1-gravity-shift.jpg" alt="Certificate of Recognition for Gravity Shift, 3rd Runner-up, Fun Fair Exhibit (Best Booth)" loading="lazy"></div>
+          <div class="flip-back">
+            <h3>Certificate of Recognition</h3>
+            <p>Gravity Shift &mdash; 3rd Runner-up, Fun Fair Exhibit (Best Booth)<br>CET TechnoFair, Holy Cross of Davao College<br>March 25, 2025</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip cert">
+        <div class="flip-inner">
+          <div class="flip-front"><img src="certificate-beyond-llms.jpg" alt="Certificate of Participation, Beyond LLMs: From Machine Learning to AGI" loading="lazy"></div>
+          <div class="flip-back">
+            <h3>Certificate of Participation</h3>
+            <p>Beyond LLMs: From Machine Learning to AGI<br>Lyceum of the Philippines University &ndash; Davao<br>February 20, 2026</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip cert">
+        <div class="flip-inner">
+          <div class="flip-front"><img src="certificate-3d-printing.jpg" alt="Certificate of Participation, 3D Printing Technology: From Digital Design to Physical Reality" loading="lazy"></div>
+          <div class="flip-back">
+            <h3>Certificate of Participation</h3>
+            <p>3D Printing Technology: From Digital Design to Physical Reality<br>Lyceum of the Philippines University &ndash; Davao<br>February 21, 2026</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip cert">
+        <div class="flip-inner">
+          <div class="flip-front"><img src="certificate2-psych-test.jpg" alt="Certificate of Participation, Online Psychological Test Interpretation for Interns" loading="lazy"></div>
+          <div class="flip-back">
+            <h3>Certificate of Participation</h3>
+            <p>Online Psychological Test Interpretation for Interns<br>Office of Guidance and Counseling, Holy Cross of Davao College<br>March 3, 2026</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip cert">
+        <div class="flip-inner">
+          <div class="flip-front"><img src="certificate-ojt-orientation.jpg" alt="Certificate of Attendance, On-the-Job Training Orientation" loading="lazy"></div>
+          <div class="flip-back">
+            <h3>Certificate of Attendance</h3>
+            <p>On-the-Job Training Orientation for BSCpE and BSECE Interns (Summer 2026)<br>College of Engineering and Technology, Holy Cross of Davao College<br>March 8</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip cert">
+        <div class="flip-inner">
+          <div class="flip-front"><img src="certificate-securescope.jpg" alt="Certificate of Completion, On-the-Job Training at Securescope Systems Inc." loading="lazy"></div>
+          <div class="flip-back">
+            <h3>Certificate of Completion</h3>
+            <p>On-the-Job Training, 280 hours<br>Securescope Systems Inc., Davao City<br>June 9 &ndash; July 22, 2026</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip cert">
+        <div class="flip-inner">
+          <div class="flip-front"><img src="certificate-ojt-debriefing.jpg" alt="Certificate of Attendance, On-the-Job Training Debriefing" loading="lazy"></div>
+          <div class="flip-back">
+            <h3>Certificate of Attendance</h3>
+            <p>On-the-Job Training Debriefing (Summer 2026)<br>College of Engineering and Technology, Holy Cross of Davao College<br>October 16, 2026</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- More certificates: copy a block above and change the image and text -->
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <h2 class="title">Get In <span class="grad">Touch</span></h2>
+    <div class="glass contact">
+      <p>Want to work together or just say hello?</p>
+      <a class="btn primary" href="mailto:hanz.sapul@hcdc.edu.ph">hanz.sapul@hcdc.edu.ph</a>
+      <div class="socials">
+        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=hanz.sapul@hcdc.edu.ph" target="_blank" rel="noopener">Gmail</a>
+        <a href="https://www.facebook.com/profile.php?id=100027403930009" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://github.com/hanzsapul-cmd" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>&copy; 2026 Hanz Aaron G. Sapul. All rights reserved.</footer>
+
+</body>
+</html>
